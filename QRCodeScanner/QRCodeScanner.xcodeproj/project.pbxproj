@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0FD82029B39AF3009D12FE /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = DD0FD81F29B39AF3009D12FE /* CodeScanner */; };
 		DD802CCC29B3987900E936DD /* QRCodeScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD802CCB29B3987900E936DD /* QRCodeScannerApp.swift */; };
 		DD802CCE29B3987900E936DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD802CCD29B3987900E936DD /* ContentView.swift */; };
 		DD802CD029B3987B00E936DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD802CCF29B3987B00E936DD /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0FD82029B39AF3009D12FE /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = QRCodeScanner;
+			packageProductDependencies = (
+				DD0FD81F29B39AF3009D12FE /* CodeScanner */,
+			);
 			productName = QRCodeScanner;
 			productReference = DD802CC829B3987900E936DD /* QRCodeScanner.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = DD802CBF29B3987900E936DD;
+			packageReferences = (
+				DD0FD81E29B39AF3009D12FE /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = DD802CC929B3987900E936DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -341,6 +349,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD0FD81E29B39AF3009D12FE /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twoStraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD0FD81F29B39AF3009D12FE /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD0FD81E29B39AF3009D12FE /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD802CC029B3987900E936DD /* Project object */;
 }
