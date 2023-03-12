@@ -44,24 +44,39 @@ extension Example{
 /// parse json
 
 let json = """
+[
 {
 "firstName" : "zeliha",
 "lastName" : "uslu"
+},
+{
+"firstName" : "salih",
+"lastName" : "uslu"
 }
+]
 """
     .data(using: .utf8)!
 
 do{
-    if let dictionary = try JSONSerialization.jsonObject(with: json, options: .fragmentsAllowed) as? [String: Any]{
-        dictionary["firstName"]
+if let customerDictionaries = try JSONSerialization.jsonObject(with: json, options: .allowFragments) as? [[String:Any]] {
+    
+    let customers = customerDictionaries.compactMap(Customer.init)
+    
+    print(customers)
+}
         
-        if let customer = Customer(dictionary: dictionary){
-            print(customer)
-        }
+//        let customers = dictionary.compactMap(Customer.init)
         
-        if let ex = Example(dictionary: dictionary){
-            print(ex)
-        }
-    }
+        
+//        dictionary["firstName"]
+//
+//        if let customer = Customer(dictionary: dictionary){
+//            print(customer)
+//        }
+//
+//        if let ex = Example(dictionary: dictionary){
+//            print(ex)
+//        }
     
 }
+
