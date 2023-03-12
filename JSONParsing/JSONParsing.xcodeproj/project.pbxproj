@@ -20,6 +20,7 @@
 		DD8BD5E429BE06BA0081B737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD8BD5E729BE06BA0081B737 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD8BD5EE29BE17530081B737 /* JSONSerialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JSONSerialization.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DD8BD5EF29BE2CB60081B737 /* Decodable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Decodable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +53,12 @@
 		DD8BD5DF29BE06B70081B737 /* JSONParsing */ = {
 			isa = PBXGroup;
 			children = (
-				DD8BD5E029BE06B70081B737 /* JSONParsingApp.swift */,
+				DD8BD5EF29BE2CB60081B737 /* Decodable.playground */,
+				DD8BD5EE29BE17530081B737 /* JSONSerialization.playground */,
 				DD8BD5E229BE06B70081B737 /* ContentView.swift */,
+				DD8BD5E029BE06B70081B737 /* JSONParsingApp.swift */,
 				DD8BD5E429BE06BA0081B737 /* Assets.xcassets */,
 				DD8BD5E629BE06BA0081B737 /* Preview Content */,
-				DD8BD5EE29BE17530081B737 /* JSONSerialization.playground */,
 			);
 			path = JSONParsing;
 			sourceTree = "<group>";
