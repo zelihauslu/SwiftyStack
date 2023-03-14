@@ -88,6 +88,27 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>Decoding Inherited Types (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
+		<key>Decoding Inherited Types (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
+		<key>Decoding Inherited Types (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>Handling Property Names (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
