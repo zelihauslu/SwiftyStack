@@ -67,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				DD8BD5F929C0A5340081B737 /* Custom Encoding.playground */,
+				DD8BD5FC29C0ABF60081B737 /* Custom Key.playground */,
 				DD8BD5EF29BE2CB60081B737 /* Decodable.playground */,
 				DD8BD5F629C087500081B737 /* Decoding Arbitary Types.playground */,
 				DD8BD5F329BF40D10081B737 /* Decoding Dates.playground */,
@@ -84,7 +85,6 @@
 				DD8BD5E029BE06B70081B737 /* JSONParsingApp.swift */,
 				DD8BD5E429BE06BA0081B737 /* Assets.xcassets */,
 				DD8BD5E629BE06BA0081B737 /* Preview Content */,
-				DD8BD5FC29C0ABF60081B737 /* Custom Key.playground */,
 			);
 			path = JSONParsing;
 			sourceTree = "<group>";
