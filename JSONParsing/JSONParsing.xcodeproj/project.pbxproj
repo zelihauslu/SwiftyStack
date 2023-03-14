@@ -33,6 +33,7 @@
 		DD8BD5F929C0A5340081B737 /* Custom Encoding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Custom Encoding.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DD8BD5FA29C0A79E0081B737 /* Decoding Flat Model.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Decoding Flat Model.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DD8BD5FB29C0AB880081B737 /* JSON Web API.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "JSON Web API.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DD8BD5FC29C0ABF60081B737 /* Custom Key.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Custom Key.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +66,16 @@
 		DD8BD5DF29BE06B70081B737 /* JSONParsing */ = {
 			isa = PBXGroup;
 			children = (
+				DD8BD5F929C0A5340081B737 /* Custom Encoding.playground */,
 				DD8BD5EF29BE2CB60081B737 /* Decodable.playground */,
 				DD8BD5F629C087500081B737 /* Decoding Arbitary Types.playground */,
 				DD8BD5F329BF40D10081B737 /* Decoding Dates.playground */,
 				DD8BD5F829C0A2E80081B737 /* Decoding Different Types.playground */,
 				DD8BD5F229BF40650081B737 /* Decoding Enums.playground */,
+				DD8BD5FA29C0A79E0081B737 /* Decoding Flat Model.playground */,
 				DD8BD5F729C08C160081B737 /* Decoding Inherited Types.playground */,
 				DD8BD5F429C080CB0081B737 /* Handling Property Names.playground */,
+				DD8BD5FB29C0AB880081B737 /* JSON Web API.playground */,
 				DD8BD5EE29BE17530081B737 /* JSONSerialization.playground */,
 				DD8BD5F029BF38320081B737 /* Key-Value Types.playground */,
 				DD8BD5F529C083330081B737 /* Mapping Properties.playground */,
@@ -80,9 +84,7 @@
 				DD8BD5E029BE06B70081B737 /* JSONParsingApp.swift */,
 				DD8BD5E429BE06BA0081B737 /* Assets.xcassets */,
 				DD8BD5E629BE06BA0081B737 /* Preview Content */,
-				DD8BD5F929C0A5340081B737 /* Custom Encoding.playground */,
-				DD8BD5FA29C0A79E0081B737 /* Decoding Flat Model.playground */,
-				DD8BD5FB29C0AB880081B737 /* JSON Web API.playground */,
+				DD8BD5FC29C0ABF60081B737 /* Custom Key.playground */,
 			);
 			path = JSONParsing;
 			sourceTree = "<group>";
