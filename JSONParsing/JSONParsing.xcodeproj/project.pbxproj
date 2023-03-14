@@ -25,6 +25,7 @@
 		DD8BD5F129BF3A4E0081B737 /* Nested Object.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Nested Object.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DD8BD5F229BF40650081B737 /* Decoding Enums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Decoding Enums.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DD8BD5F329BF40D10081B737 /* Decoding Dates.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Decoding Dates.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DD8BD5F429C080CB0081B737 /* Handling Property Names.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Handling Property Names.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 				DD8BD5E029BE06B70081B737 /* JSONParsingApp.swift */,
 				DD8BD5E429BE06BA0081B737 /* Assets.xcassets */,
 				DD8BD5E629BE06BA0081B737 /* Preview Content */,
+				DD8BD5F429C080CB0081B737 /* Handling Property Names.playground */,
 			);
 			path = JSONParsing;
 			sourceTree = "<group>";
