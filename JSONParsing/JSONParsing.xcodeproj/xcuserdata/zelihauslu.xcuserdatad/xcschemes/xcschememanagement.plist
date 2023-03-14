@@ -130,6 +130,27 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>Decoding Flat Model (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>34</integer>
+		</dict>
+		<key>Decoding Flat Model (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>35</integer>
+		</dict>
+		<key>Decoding Flat Model (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>33</integer>
+		</dict>
 		<key>Decoding Inherited Types (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
