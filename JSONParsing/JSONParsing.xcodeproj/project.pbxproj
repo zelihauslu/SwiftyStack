@@ -32,6 +32,7 @@
 		DD8BD5F829C0A2E80081B737 /* Decoding Different Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Decoding Different Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DD8BD5F929C0A5340081B737 /* Custom Encoding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Custom Encoding.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DD8BD5FA29C0A79E0081B737 /* Decoding Flat Model.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Decoding Flat Model.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DD8BD5FB29C0AB880081B737 /* JSON Web API.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "JSON Web API.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				DD8BD5E629BE06BA0081B737 /* Preview Content */,
 				DD8BD5F929C0A5340081B737 /* Custom Encoding.playground */,
 				DD8BD5FA29C0A79E0081B737 /* Decoding Flat Model.playground */,
+				DD8BD5FB29C0AB880081B737 /* JSON Web API.playground */,
 			);
 			path = JSONParsing;
 			sourceTree = "<group>";
