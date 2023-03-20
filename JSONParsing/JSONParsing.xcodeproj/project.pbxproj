@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD5ED9A629C8A9F200D5EB13 /* NewsAPI.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NewsAPI.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DD8BD5DD29BE06B70081B737 /* JSONParsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONParsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8BD5E029BE06B70081B737 /* JSONParsingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingApp.swift; sourceTree = "<group>"; };
 		DD8BD5E229BE06B70081B737 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 				DD8BD5E029BE06B70081B737 /* JSONParsingApp.swift */,
 				DD8BD5E429BE06BA0081B737 /* Assets.xcassets */,
 				DD8BD5E629BE06BA0081B737 /* Preview Content */,
+				DD5ED9A629C8A9F200D5EB13 /* NewsAPI.playground */,
 			);
 			path = JSONParsing;
 			sourceTree = "<group>";
