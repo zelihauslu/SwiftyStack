@@ -12,8 +12,10 @@ import CoreData
 
 class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
 
-    @IBOutlet weak var commandTextField: UITextField!
-    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var nameText: UITextField!
+    
+    @IBOutlet weak var commentText: UITextField!
+    
     @IBOutlet weak var mapView: MKMapView!
     var locationManager = CLLocationManager()
     var chosenLatitude = Double()
