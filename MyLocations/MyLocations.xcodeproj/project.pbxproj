@@ -14,6 +14,7 @@
 		DDEE759F29CDEE38007000F4 /* MyLocations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDEE759D29CDEE38007000F4 /* MyLocations.xcdatamodeld */; };
 		DDEE75A129CDEE3A007000F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEE75A029CDEE3A007000F4 /* Assets.xcassets */; };
 		DDEE75A429CDEE3A007000F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEE75A229CDEE3A007000F4 /* LaunchScreen.storyboard */; };
+		DDEE75AC29D18D6C007000F4 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE75AB29D18D6C007000F4 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DDEE75A029CDEE3A007000F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDEE75A329CDEE3A007000F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDEE75A529CDEE3A007000F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEE75AB29D18D6C007000F4 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				DDEE759429CDEE38007000F4 /* AppDelegate.swift */,
 				DDEE759629CDEE38007000F4 /* SceneDelegate.swift */,
 				DDEE759829CDEE38007000F4 /* ViewController.swift */,
+				DDEE75AB29D18D6C007000F4 /* ListViewController.swift */,
 				DDEE759A29CDEE38007000F4 /* Main.storyboard */,
 				DDEE75A029CDEE3A007000F4 /* Assets.xcassets */,
 				DDEE75A229CDEE3A007000F4 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				DDEE759929CDEE38007000F4 /* ViewController.swift in Sources */,
 				DDEE759529CDEE38007000F4 /* AppDelegate.swift in Sources */,
 				DDEE759F29CDEE38007000F4 /* MyLocations.xcdatamodeld in Sources */,
+				DDEE75AC29D18D6C007000F4 /* ListViewController.swift in Sources */,
 				DDEE759729CDEE38007000F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
