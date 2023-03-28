@@ -8,33 +8,69 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Add-->
         <scene sceneID="vDP-fF-8NZ">
             <objects>
-                <viewController id="bTv-QM-GsL" sceneMemberID="viewController">
+                <viewController id="bTv-QM-GsL" customClass="ViewController" customModule="InstagramCloneFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RRN-cA-5GO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="tey-d1-yBU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="n3S-kO-wx3"/>
+                    <tabBarItem key="tabBarItem" title="Add" image="photo" catalog="system" id="n3S-kO-wx3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ykO-We-k1f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-767" y="410"/>
         </scene>
-        <!--Item 1-->
+        <!--Settings-->
+        <scene sceneID="eZr-im-oQY">
+            <objects>
+                <viewController id="wLS-wT-pG9" customClass="ViewController" customModule="InstagramCloneFirebase" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tHN-2K-ByE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pqe-cu-mdO">
+                                <rect key="frame" x="349" y="44" width="45" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="power.circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="logOutClicked:" destination="glk-Wy-MlM" eventType="touchUpInside" id="10e-aR-6IN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aA9-Yl-xkQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aA9-Yl-xkQ" firstAttribute="bottom" secondItem="Pqe-cu-mdO" secondAttribute="bottom" constant="738" id="7Ot-2E-9Ec"/>
+                            <constraint firstItem="Pqe-cu-mdO" firstAttribute="leading" secondItem="aA9-Yl-xkQ" secondAttribute="leading" constant="349" id="DiM-H5-dHj"/>
+                            <constraint firstItem="aA9-Yl-xkQ" firstAttribute="trailing" secondItem="Pqe-cu-mdO" secondAttribute="trailing" constant="20" id="GWc-Hm-L4t"/>
+                            <constraint firstItem="Pqe-cu-mdO" firstAttribute="top" secondItem="aA9-Yl-xkQ" secondAttribute="top" id="u8j-Jf-s8p"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="wrench.and.screwdriver" catalog="system" id="1ef-KS-MFe"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="WGk-1c-7U8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PAd-qb-Xpv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="glk-Wy-MlM" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-1658" y="984"/>
+        </scene>
+        <!--Feed-->
         <scene sceneID="biI-C1-kkI">
             <objects>
-                <viewController id="SCj-Me-Of6" sceneMemberID="viewController">
+                <viewController id="SCj-Me-Of6" customClass="ViewController" customModule="InstagramCloneFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5VR-IP-DLQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="KgW-5C-gFJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="xdc-VI-geU"/>
+                    <tabBarItem key="tabBarItem" title="Feed" image="homekit" catalog="system" id="xdc-VI-geU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dl6-S3-a33" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,7 +79,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="51L-Dx-qKN">
             <objects>
-                <tabBarController id="ZoB-pn-TD5" sceneMemberID="viewController">
+                <tabBarController id="ZoB-pn-TD5" customClass="ViewController" customModule="InstagramCloneFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="VuV-Ud-Jj9"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vcx-7e-2es">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -53,6 +89,7 @@
                     <connections>
                         <segue destination="SCj-Me-Of6" kind="relationship" relationship="viewControllers" id="aHv-hz-dOc"/>
                         <segue destination="bTv-QM-GsL" kind="relationship" relationship="viewControllers" id="AGS-bJ-7qt"/>
+                        <segue destination="wLS-wT-pG9" kind="relationship" relationship="viewControllers" id="yQV-i1-GVt"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jZu-nq-rpc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -116,6 +153,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Lt-nO-DFO" secondAttribute="trailing" constant="128" id="zUL-9S-NP4"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="iKz-6I-XW3"/>
                     <connections>
                         <outlet property="emailText" destination="Zsd-0U-Rpr" id="oG0-3O-euR"/>
                         <outlet property="passwordText" destination="StT-FO-Wd6" id="Uek-nf-FRc"/>
@@ -128,6 +166,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="photo" catalog="system" width="128" height="93"/>
+        <image name="power.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="wrench.and.screwdriver" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
