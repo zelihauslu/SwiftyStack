@@ -15,9 +15,13 @@ class SettingsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    @IBAction func logOutClicked(_ sender: Any) {
+    @IBAction func logOut(_ sender: Any) {
+        performSegue(withIdentifier: "ToViewController", sender: nil)
     }
     
-
+    @IBAction func SignOut(_ sender: Any) {
+        performSegue(withIdentifier: "ToViewController", sender: nil)
+    }
+    
+    
 }

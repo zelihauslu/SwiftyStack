@@ -11,7 +11,7 @@
         <!--Add-->
         <scene sceneID="vDP-fF-8NZ">
             <objects>
-                <viewController id="bTv-QM-GsL" customClass="ViewController" customModule="InstagramCloneFirebase" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bTv-QM-GsL" customClass="UploadViewController" customModule="InstagramCloneFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RRN-cA-5GO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,7 +27,7 @@
         <!--Settings-->
         <scene sceneID="eZr-im-oQY">
             <objects>
-                <viewController id="wLS-wT-pG9" customClass="ViewController" customModule="InstagramCloneFirebase" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wLS-wT-pG9" customClass="SettingsViewController" customModule="InstagramCloneFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tHN-2K-ByE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,7 +37,16 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="power.circle.fill" catalog="system"/>
                                 <connections>
-                                    <action selector="logOutClicked:" destination="glk-Wy-MlM" eventType="touchUpInside" id="ebD-tR-jPB"/>
+                                    <action selector="logOut:" destination="wLS-wT-pG9" eventType="touchUpInside" id="9Wb-8k-VRP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yja-St-Var">
+                                <rect key="frame" x="266" y="124" width="76" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Log Out"/>
+                                <connections>
+                                    <action selector="SignOut:" destination="wLS-wT-pG9" eventType="touchUpInside" id="rgw-5l-LUF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -52,18 +61,17 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="wrench.and.screwdriver" catalog="system" id="1ef-KS-MFe"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="WGk-1c-7U8"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="ToViewController" modalPresentationStyle="fullScreen" id="WGk-1c-7U8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PAd-qb-Xpv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="glk-Wy-MlM" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-1659.4202898550725" y="983.70535714285711"/>
         </scene>
         <!--Feed-->
         <scene sceneID="biI-C1-kkI">
             <objects>
-                <viewController id="SCj-Me-Of6" customClass="ViewController" customModule="InstagramCloneFirebase" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SCj-Me-Of6" customClass="FeedViewController" customModule="InstagramCloneFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5VR-IP-DLQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,10 +84,10 @@
             </objects>
             <point key="canvasLocation" x="-767" y="-197"/>
         </scene>
-        <!--View Controller-->
+        <!--Tab Bar Controller-->
         <scene sceneID="51L-Dx-qKN">
             <objects>
-                <tabBarController id="ZoB-pn-TD5" customClass="ViewController" customModule="InstagramCloneFirebase" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="ZoB-pn-TD5" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="VuV-Ud-Jj9"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vcx-7e-2es">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
