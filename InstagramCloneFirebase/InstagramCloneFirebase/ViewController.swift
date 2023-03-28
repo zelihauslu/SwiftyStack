@@ -16,9 +16,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func logInClicked(_ sender: Any) {
+    @IBAction func SiggnInClicked(_ sender: Any) {
         performSegue(withIdentifier: "ToFeedVC", sender: nil)
+
     }
+    
+    
     
     @IBAction func signUpClicked(_ sender: Any) {
         performSegue(withIdentifier: "ToFeedVC", sender: nil)

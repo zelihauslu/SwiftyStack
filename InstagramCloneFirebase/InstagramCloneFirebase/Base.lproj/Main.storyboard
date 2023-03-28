@@ -32,14 +32,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pqe-cu-mdO">
-                                <rect key="frame" x="349" y="44" width="45" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="power.circle.fill" catalog="system"/>
-                                <connections>
-                                    <action selector="logOut:" destination="wLS-wT-pG9" eventType="touchUpInside" id="9Wb-8k-VRP"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yja-St-Var">
                                 <rect key="frame" x="266" y="124" width="76" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -52,12 +44,6 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aA9-Yl-xkQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="aA9-Yl-xkQ" firstAttribute="bottom" secondItem="Pqe-cu-mdO" secondAttribute="bottom" constant="738" id="7Ot-2E-9Ec"/>
-                            <constraint firstItem="Pqe-cu-mdO" firstAttribute="leading" secondItem="aA9-Yl-xkQ" secondAttribute="leading" constant="349" id="DiM-H5-dHj"/>
-                            <constraint firstItem="aA9-Yl-xkQ" firstAttribute="trailing" secondItem="Pqe-cu-mdO" secondAttribute="trailing" constant="20" id="GWc-Hm-L4t"/>
-                            <constraint firstItem="Pqe-cu-mdO" firstAttribute="top" secondItem="aA9-Yl-xkQ" secondAttribute="top" id="u8j-Jf-s8p"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="wrench.and.screwdriver" catalog="system" id="1ef-KS-MFe"/>
                     <connections>
@@ -125,14 +111,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S54-Rx-QvD">
-                                <rect key="frame" x="129" y="433" width="157" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Log In"/>
-                                <connections>
-                                    <action selector="logInClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M1t-2c-dIz"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Lt-nO-DFO">
                                 <rect key="frame" x="129" y="517" width="157" height="31"/>
                                 <state key="normal" title="Button"/>
@@ -141,22 +119,26 @@
                                     <action selector="signUpClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="493-9V-SOp"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZq-Rc-pwi">
+                                <rect key="frame" x="174" y="442" width="68" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sign In"/>
+                                <connections>
+                                    <action selector="SiggnInClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q16-d2-H2X"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Lt-nO-DFO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="8J0-QV-gc9"/>
-                            <constraint firstItem="S54-Rx-QvD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="Hiq-YG-5Gz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6Lt-nO-DFO" secondAttribute="bottom" constant="314" id="NxF-ki-vWU"/>
-                            <constraint firstItem="S54-Rx-QvD" firstAttribute="top" secondItem="StT-FO-Wd6" secondAttribute="bottom" constant="60" id="QZu-yZ-Nbq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="S54-Rx-QvD" secondAttribute="trailing" constant="128" id="TZk-ib-x6j"/>
                             <constraint firstItem="Zsd-0U-Rpr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X6h-Xg-Vrz"/>
                             <constraint firstItem="Zsd-0U-Rpr" firstAttribute="trailing" secondItem="StT-FO-Wd6" secondAttribute="trailing" id="Ysp-vY-VBN"/>
                             <constraint firstItem="Zsd-0U-Rpr" firstAttribute="leading" secondItem="StT-FO-Wd6" secondAttribute="leading" id="c4m-6h-PKf"/>
                             <constraint firstItem="StT-FO-Wd6" firstAttribute="top" secondItem="Zsd-0U-Rpr" secondAttribute="bottom" constant="36" id="gJj-Cq-YhE"/>
                             <constraint firstItem="Zsd-0U-Rpr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="225" id="htm-H7-4HY"/>
-                            <constraint firstItem="6Lt-nO-DFO" firstAttribute="top" secondItem="S54-Rx-QvD" secondAttribute="bottom" constant="53" id="kKy-CG-jRw"/>
-                            <constraint firstItem="6Lt-nO-DFO" firstAttribute="top" secondItem="S54-Rx-QvD" secondAttribute="bottom" constant="53" id="nNs-QS-jkB"/>
                             <constraint firstItem="Zsd-0U-Rpr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="vsF-PZ-Uhy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Lt-nO-DFO" secondAttribute="trailing" constant="128" id="zUL-9S-NP4"/>
                         </constraints>
@@ -176,7 +158,6 @@
     <resources>
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="photo" catalog="system" width="128" height="93"/>
-        <image name="power.circle.fill" catalog="system" width="128" height="121"/>
         <image name="wrench.and.screwdriver" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
