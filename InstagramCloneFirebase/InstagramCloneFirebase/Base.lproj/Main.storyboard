@@ -37,7 +37,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="power.circle.fill" catalog="system"/>
                                 <connections>
-                                    <action selector="logOutClicked:" destination="glk-Wy-MlM" eventType="touchUpInside" id="10e-aR-6IN"/>
+                                    <action selector="logOutClicked:" destination="glk-Wy-MlM" eventType="touchUpInside" id="ebD-tR-jPB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -58,7 +58,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PAd-qb-Xpv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="glk-Wy-MlM" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-1658" y="984"/>
+            <point key="canvasLocation" x="-1659.4202898550725" y="983.70535714285711"/>
         </scene>
         <!--Feed-->
         <scene sceneID="biI-C1-kkI">
@@ -76,7 +76,7 @@
             </objects>
             <point key="canvasLocation" x="-767" y="-197"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--View Controller-->
         <scene sceneID="51L-Dx-qKN">
             <objects>
                 <tabBarController id="ZoB-pn-TD5" customClass="ViewController" customModule="InstagramCloneFirebase" customModuleProvider="target" sceneMemberID="viewController">

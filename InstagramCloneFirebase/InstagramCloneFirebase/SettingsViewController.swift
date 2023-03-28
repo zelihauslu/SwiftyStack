@@ -16,6 +16,8 @@ class SettingsViewController: UIViewController {
     }
     
 
-   
+    @IBAction func logOutClicked(_ sender: Any) {
+    }
+    
 
 }
