@@ -14,7 +14,7 @@
 		DD1A2CDF29D329560063AE7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1A2CDD29D329560063AE7B /* Main.storyboard */; };
 		DD1A2CE129D329580063AE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1A2CE029D329580063AE7B /* Assets.xcassets */; };
 		DD1A2CE429D329580063AE7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1A2CE229D329580063AE7B /* LaunchScreen.storyboard */; };
-		DD1A2CEC29D32D3E0063AE7B /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD1A2CEB29D32D3E0063AE7B /* GoogleService-Info-2.plist */; };
+		DD1A2CEC29D32D3E0063AE7B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD1A2CEB29D32D3E0063AE7B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 		DD1A2CE029D329580063AE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD1A2CE329D329580063AE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD1A2CE529D329580063AE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD1A2CEB29D32D3E0063AE7B /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		DD1A2CEB29D32D3E0063AE7B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE652070FB68DA690BC762DF /* Pods-InstagramCloneFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramCloneFirebase.release.xcconfig"; path = "Target Support Files/Pods-InstagramCloneFirebase/Pods-InstagramCloneFirebase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +58,6 @@
 				35B736265F0AF80C9EDCEAD6 /* Pods-InstagramCloneFirebase.debug.xcconfig */,
 				FE652070FB68DA690BC762DF /* Pods-InstagramCloneFirebase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -90,7 +89,7 @@
 				DD1A2CE029D329580063AE7B /* Assets.xcassets */,
 				DD1A2CE229D329580063AE7B /* LaunchScreen.storyboard */,
 				DD1A2CE529D329580063AE7B /* Info.plist */,
-				DD1A2CEB29D32D3E0063AE7B /* GoogleService-Info-2.plist */,
+				DD1A2CEB29D32D3E0063AE7B /* GoogleService-Info.plist */,
 			);
 			path = InstagramCloneFirebase;
 			sourceTree = "<group>";
@@ -157,7 +156,7 @@
 			files = (
 				DD1A2CE429D329580063AE7B /* LaunchScreen.storyboard in Resources */,
 				DD1A2CE129D329580063AE7B /* Assets.xcassets in Resources */,
-				DD1A2CEC29D32D3E0063AE7B /* GoogleService-Info-2.plist in Resources */,
+				DD1A2CEC29D32D3E0063AE7B /* GoogleService-Info.plist in Resources */,
 				DD1A2CDF29D329560063AE7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
