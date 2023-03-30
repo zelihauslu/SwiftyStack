@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>396362311536-5btloqa24gk60r1bjka8i3n833mmla7q.apps.googleusercontent.com</string>
+	<string>643404899901-7p2tvm0q1o4j6of07sn2ast9qth8pu0p.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.396362311536-5btloqa24gk60r1bjka8i3n833mmla7q</string>
+	<string>com.googleusercontent.apps.643404899901-7p2tvm0q1o4j6of07sn2ast9qth8pu0p</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDx0KeP038GJ1IyYAjzYJM_K0UIP_oHpfg</string>
+	<string>AIzaSyBZSCHaHeD-iqu9Lmif1D8r524n8UfKacY</string>
 	<key>GCM_SENDER_ID</key>
-	<string>396362311536</string>
+	<string>643404899901</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.zelihauslu.InstagramCloneFirebase</string>
+	<string>com.zelihauslu.InstaCloneFirebase</string>
 	<key>PROJECT_ID</key>
-	<string>instagramclonefirebase-bbfeb</string>
+	<string>instagramclone-af7c4</string>
 	<key>STORAGE_BUCKET</key>
-	<string>instagramclonefirebase-bbfeb.appspot.com</string>
+	<string>instagramclone-af7c4.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:396362311536:ios:3eb8e24c15e124c0cdd1b5</string>
+	<string>1:643404899901:ios:c846c8bdb8f2dad35bac54</string>
 </dict>
 </plist>
