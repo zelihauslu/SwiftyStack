@@ -13,6 +13,7 @@
 		DDD6EC5629DDC929008C5223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD6EC5429DDC929008C5223 /* Main.storyboard */; };
 		DDD6EC5829DDC92B008C5223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD6EC5729DDC92B008C5223 /* Assets.xcassets */; };
 		DDD6EC5B29DDC92B008C5223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD6EC5929DDC92B008C5223 /* LaunchScreen.storyboard */; };
+		DDD6EC6329DDCE6C008C5223 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DDD6EC6229DDCE6C008C5223 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DDD6EC5729DDC92B008C5223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDD6EC5A29DDC92B008C5223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDD6EC5C29DDC92B008C5223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD6EC6229DDCE6C008C5223 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				DDD6EC5429DDC929008C5223 /* Main.storyboard */,
 				DDD6EC5729DDC92B008C5223 /* Assets.xcassets */,
 				DDD6EC5929DDC92B008C5223 /* LaunchScreen.storyboard */,
+				DDD6EC6229DDCE6C008C5223 /* MobileNetV2.mlmodel */,
 				DDD6EC5C29DDC92B008C5223 /* Info.plist */,
 			);
 			path = MachineLearningImageRecognition;
@@ -140,6 +143,7 @@
 			files = (
 				DDD6EC5329DDC929008C5223 /* ViewController.swift in Sources */,
 				DDD6EC4F29DDC929008C5223 /* AppDelegate.swift in Sources */,
+				DDD6EC6329DDCE6C008C5223 /* MobileNetV2.mlmodel in Sources */,
 				DDD6EC5129DDC929008C5223 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +294,7 @@
 				DEVELOPMENT_TEAM = 23U86K98CU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MachineLearningImageRecognition/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "For Recognition";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,6 +326,7 @@
 				DEVELOPMENT_TEAM = 23U86K98CU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MachineLearningImageRecognition/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "For Recognition";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
